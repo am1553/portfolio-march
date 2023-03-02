@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-march/static/css/main.fa235a37.css",
+    "main.js": "/portfolio-march/static/js/main.e2f38f59.js",
+    "static/media/entertainment-laptop.png": "/portfolio-march/static/media/entertainment-laptop.943ab13489c9bc5eb9ed.png",
+    "static/media/art-gallery-laptop.png": "/portfolio-march/static/media/art-gallery-laptop.bf733d4e1ebfeef8fb29.png",
+    "static/media/entertainment-iphone.png": "/portfolio-march/static/media/entertainment-iphone.f70e64f228443772301b.png",
+    "static/media/audiophile-laptop.png": "/portfolio-march/static/media/audiophile-laptop.6340354a03b5f1817174.png",
+    "static/media/art-gallery-iphone.png": "/portfolio-march/static/media/art-gallery-iphone.200ee080679e43886fd8.png",
+    "static/media/audiophile-iphone.png": "/portfolio-march/static/media/audiophile-iphone.438c202b4648442748fc.png",
+    "static/media/invoice-app-laptop.png": "/portfolio-march/static/media/invoice-app-laptop.0d8c89348e15d30e1632.png",
+    "static/media/invoice-iphone.png": "/portfolio-march/static/media/invoice-iphone.75be0c00e020654a6fbb.png",
+    "static/media/home-hero.svg": "/portfolio-march/static/media/home-hero.d666a6a6213f108c67fd24a6c897be12.svg",
+    "index.html": "/portfolio-march/index.html",
+    "main.fa235a37.css.map": "/portfolio-march/static/css/main.fa235a37.css.map",
+    "main.e2f38f59.js.map": "/portfolio-march/static/js/main.e2f38f59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa235a37.css",
+    "static/js/main.e2f38f59.js"
+  ]
+}
