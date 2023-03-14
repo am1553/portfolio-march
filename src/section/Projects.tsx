@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../constants/projects";
-import { delay, motion, useScroll } from "framer-motion";
+
 type ProjectType = {
   id: number;
   name: string;
@@ -13,7 +13,6 @@ type ProjectType = {
 };
 
 function Projects() {
-  const { scrollYProgress } = useScroll();
   const Header = () => {
     return (
       <h4 className="bg-desaturated-white w-full py-12 relative uppercase tracking-widest ">
@@ -28,20 +27,15 @@ function Projects() {
     const { name, description, tags, mobileImage, laptopImage, live, code } =
       data;
     return (
-      <motion.div
-        className="flex flex-col gap-36"
-        whileInView={{ opacity: 1 }}
-        initial={{ opacity: 0 }}
-        transition={{ delay: 0.5 }}
-      >
-        <motion.div className="relative bg-desaturated-white">
+      <div className="flex flex-col gap-36">
+        <div className="relative bg-desaturated-white">
           <img src={laptopImage} alt="" />
           <img
             src={mobileImage}
             alt=""
             className="absolute top-1/3 -right-[50px]"
           />
-        </motion.div>
+        </div>
         <div className="bg-desaturated-white h-full list-none flex flex-col gap-4">
           <h3 className="text-2xl font-bold">{name}</h3>
           <ul className="flex-1 h-full ">
@@ -76,7 +70,7 @@ function Projects() {
             </a>
           </div>
         </div>
-      </motion.div>
+      </div>
     );
   };
   return (
